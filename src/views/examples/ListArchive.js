@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import {
   Card,
@@ -11,7 +12,6 @@ import {
   Button,
   Col,
   FormGroup,
-  Label,
   Input,
   Modal,
   ModalHeader,

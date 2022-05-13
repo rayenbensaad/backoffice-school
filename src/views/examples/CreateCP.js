@@ -12,7 +12,6 @@ import {
   Col,
 } from "reactstrap";
 // core components
-import UserHeader from "components/Headers/UserHeader.js";
 import AuthService from "../../services/auth";
 import Header from "components/Headers/Header";
 

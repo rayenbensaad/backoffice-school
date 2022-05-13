@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import {
   Button,
@@ -13,7 +14,6 @@ import {
   Label,
 } from "reactstrap";
 // core components
-import UserHeader from "components/Headers/UserHeader.js";
 import AuthArchive from "../../services/archive";
 import Header from "components/Headers/Header";
 
@@ -28,6 +28,7 @@ const CreateArchive = (props) => {
   const handleRegister = (e) => {
     e.preventDefault();
 
+    // eslint-disable-next-line no-unused-vars
     const reader = new FileReader(),
     files = picture
 
