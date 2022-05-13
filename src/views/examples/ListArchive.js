@@ -149,7 +149,7 @@ const ListArchive = (props) => {
                 <CardImg
                   top
                   width="100%"
-                  src={`http://localhost:5000/uploads/${obj.picture}`}
+                  src={`https://api-node-school.herokuapp.com/uploads/${obj.picture}`}
                   alt="Card image cap"
                 />
                 <CardBody>
